@@ -24,6 +24,6 @@ class BasicFunction extends LambdaFunction
 
     public function package()
     {
-        return ['sidecar/basic/js'];
+        return ['sidecar/basic.js'];
     }
 }

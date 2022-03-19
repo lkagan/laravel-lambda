@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Sidecar;
 
-use Hammerstone\Sidecar\Package;
 use Hammerstone\Sidecar\Runtime;
 use Hammerstone\Sidecar\LambdaFunction;
 

@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return BasicFunction::execute()->body();
+    return BasicFunction::execute(['name' => 'Larry'])->body();
 });

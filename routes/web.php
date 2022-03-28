@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return BasicFunction::execute(['name' => 'Larry'])->body();
+    return BasicFunction::execute([
+        'laravelVersion' => app()->version(),
+    ])->body();
 });
